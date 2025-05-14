@@ -13,7 +13,6 @@ else {
 // 2. Check if Input is a number 
 // Ask the user for input and convert it into a number.If it’s a valid number (not NaN), print “Your number is: X”.Otherwise, print “Please enter a valid number”.
 
-
 var b = prompt("Enter a valid number: ");
 
 if (b !== null && b.trim() !== "" && !isNaN(Number(b))) {
