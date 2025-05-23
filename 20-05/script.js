@@ -30,13 +30,13 @@
 
 // ek loop chalao 5 baar har baar prompt mange jo bhi prompt me de de voh array me save ho jaye last me pura array console mai print ho jaaye 
  
-let arr = [];
-for(let i = 0; i < 5; i++){
+// let arr = [];
+// for(let i = 0; i < 5; i++){
  
-   arr.push(prompt("Enter the value"));
+//    arr.push(prompt("Enter the value"));
    
-}
-console.log(arr);
+// }
+// console.log(arr);
 
 
 
