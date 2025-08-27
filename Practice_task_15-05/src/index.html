@@ -488,7 +488,37 @@
 
   </section>
 
+  <!-- Moving Spherical Ball -->
+  <div id="moving-ball" class="fixed top-20 left-20 w-16 h-16 bg-gradient-to-br from-yellow-400 via-pink-500 to-purple-600 rounded-full shadow-2xl z-[9999] pointer-events-none"></div>
+  <script>
+    // Ball movement variables
+    let x = 120, y = 120;
+    let dx = 2.2, dy = 1.7;
+    const ball = document.getElementById('moving-ball');
+    const radius = 32; // half of w-16/h-16 in px
 
+    function animateBall() {
+      // Get viewport size
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+
+      // Move ball
+      x += dx;
+      y += dy;
+
+      // Bounce off edges
+      if (x + radius > vw || x - radius < 0) dx *= -1;
+      if (y + radius > vh || y - radius < 0) dy *= -1;
+
+      // Apply position
+      ball.style.left = `${x - radius}px`;
+      ball.style.top = `${y - radius}px`;
+
+      requestAnimationFrame(animateBall);
+    }
+
+    animateBall();
+  </script>
 
 </body>
 

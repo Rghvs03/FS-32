@@ -15,16 +15,19 @@
 // }
 
 
-var a = prompt("Enter number 1");
-var b = prompt("Enter number 2");
+// var a = prompt("Enter number 1");
+// var b = prompt("Enter number 2");
 
-a = Number(a);
-b = Number(b);
+// a = Number(a);
+// b = Number(b);
 
-if(isNaN(a) || isNaN(b)){
-    console.log("right value dooooo");
-}
-else{
-    console.log(a+b);
+// if(isNaN(a) || isNaN(b)){
+//     console.log("right value dooooo");
+// }
+// else{
+//     console.log(a+b);
     
-}
+// }
+
+
+

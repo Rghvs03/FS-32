@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page {
+    height: 3600px;
+}
+
+#progressBar {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(190, 190, 190);
+    position: fixed;
+    border-radius: 100%;
+    top: 250px;
+    left: 635.5px;
+    overflow: hidden;
+}
+
+#progress {
+    /* height: 0%; */
+    width: 250px; 
+    border-radius: 5%;
+     background-color: #74a4cd;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transition: height 0.3ms ease-in;
+
+}
+h1{
+    position: absolute;
+    z-index: 9999;
+    top: 110px;
+    left: 96.5px;
+    color: #122e47;
+    width: 4ch;
+    font-family: monospace;
+    text-align: center;
+    
+
+}

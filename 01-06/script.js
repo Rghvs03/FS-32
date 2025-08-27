@@ -50,6 +50,17 @@
 // })
 // console.log(arr2);
 
+let arr = [100,2000,400,5000,3500];
+
+let arr3 = arr.filter(function(val){
+    if(val>1000){
+        // return true;
+        return val;
+    }
+    // return val>1000;
+})
+console.log(arr3);
+
 // let arr = ["Harsh","Raghav","Krishna"];
 
 // let arr1 = arr.map(function(val){
@@ -71,7 +82,7 @@
 // })
 // console.log(arr1);
 
-let arr = [1,2,10,50];
+// let arr = [1,2,10,50];
 
 // let newar = arr.map(function(val){
 //     return val*83;
@@ -97,6 +108,10 @@ let arr = [1,2,10,50];
 //     return val.price > 500;
 // })
 // console.log(f);
+
+
+
+
 
 
 

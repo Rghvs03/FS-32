@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body,
+main {
+    padding: 1rem;
+    background-color: #fdfbf5;
+
+}
+
+main {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero_section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero_top{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.hero_section h1 {
+    font-size: 3.6rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.hero_section img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.our-values {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.our-values.top {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.our-values .top p {
+    font-weight: 300;
+}
+
+.our-values .top h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.our-values .line {
+    height: 0.5px;
+    width: 100%;
+    background-color: black;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.our-values .bottom .group img {
+    height: 4rem;
+    width: 4rem;
+}
+
+.our-values .bottom .group h1 {
+    font-weight: 100;
+}
+
+
+@media (min-width:1024px) {
+
+
+    main {
+        padding: 3rem;
+    }
+
+    .hero_section {
+        gap: 2rem;
+    }
+
+    .hero_section h1 {
+        font-size: 6.5rem;
+        width: 60%;
+    }
+
+    .our-values {
+        flex-direction: row;
+        gap: 3rem;
+    }
+
+    .our-values .top {
+        width: 60%;
+    }
+
+    .our-values .top h1 {
+        font-size: 5em;
+    }
+
+    .our-values>.line {
+        height: initial;
+        width: 1px;
+
+    }
+
+    .our-values .bottom {
+        width: 40%;
+    }
+
+    main{
+        gap: 4rem;
+    }
+
+    .bottom{
+        gap:3rem;
+    }
+
+    .hero_section{
+        gap:4rem;
+    }
+    .hero_top{
+        gap:2rem;
+    }
+}
